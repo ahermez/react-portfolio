@@ -1,0 +1,37 @@
+header{
+    width: 100%;
+    padding: 0rem;
+    font-size: 4.2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    background-color: #0f50c18e;
+    text-align: center;
+    /* <div style="float: left;">Portfolio</div> */
+
+}
+
+
+.navBar {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #0f50c18e;
+}
+
+.navItem {
+    list-style: none;
+
+}
+
+.highlight {
+    color: white !important;
+}
+
+.navLink {
+    color: yellow;
+}
+

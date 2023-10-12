@@ -16,5 +16,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "react/prop-types": "off"
+    // to turn eslint off make a need rule
+    // "react/no-unescaped-entities":["error", {"forbid": []}] 
   },
 }

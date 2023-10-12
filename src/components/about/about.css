@@ -1,0 +1,12 @@
+.avatar {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  transform: rotate(-20deg) rotateX(3deg) rotateY(4deg);
+  
+}
+.avatar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

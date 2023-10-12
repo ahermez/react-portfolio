@@ -1,33 +1,33 @@
-import './App.css'
 import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  RouterProvider, 
+  RouterProvider,
 } from "react-router-dom";
-import About from './components/about';
-import Root from './components/root';
-import Hero from './components/hero';
-import Projects from './components/projects';
-import Contact from './components/contact';
-import Footer from './components/footer'
+import About from "./components/about";
+import Root from "./components/root";
+import Portfolio from "./components/portfolio";
+import Contact from "./components/contact";
+import Resume from "./components/resume";
+import Footer from "./components/footer";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path = "/" element={<Root/>}>
-      <Route index element={<Hero/>}/> 
-      <Route path = "/about" element={<About/>}/> 
-      <Route path = "/projects" element={<Projects/>}/> 
-      <Route path = "/contact" element={<Contact/>}/> 
+      <Route path="/" element={<Root />}>
+        <Route index element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Route>
     )
-  )
+  );
+
   return (
     <>
-     <RouterProvider router={router}/> 
-     <Footer/>
+      <RouterProvider router={router} />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
