@@ -98,7 +98,7 @@ This web developer portfolio is built using the following technologies:
 ## Project Reference
 
 [GitHub] <a href="https://github.com/ahermez/react-portfolio">Ahermez</a>
-[Capture Portfolio] <a href="https://ahermez.github.io/react-portfolio/">Ali's Porfolio</a>
+[Netify] <a href="https://20-portfolio.netlify.app/">Ali's Porfolio</a>
 
 ## Contributors:
 
@@ -109,4 +109,3 @@ Rene Trevino, UCB tutor
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
-https://main--20-portfolio.netlify.app/
