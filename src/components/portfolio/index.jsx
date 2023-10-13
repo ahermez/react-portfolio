@@ -1,4 +1,10 @@
 import { PortfolioCard } from "./PortfolioCard";
+import cq from "../../Images/cq.png"
+import cw from "../../Images/cw.png"
+import hat from "../../Images/hat.png"
+import nt from "../../Images/nt.png"
+import pg from "../../Images/pg.png"
+import tg from "../../Images/tg.png"
 
 const Projects = () => {
   return (
@@ -8,38 +14,38 @@ const Projects = () => {
           projectName="Hybrid Attendance Tracker"
           projectUrl="https://ahermez.github.io/hybrid-tracker-project-1/"
           githubUrl="https://github.com/ahermez/hybrid-tracker-project-1.git"
-          fileName="hat.png"
+          fileName={hat}
         />
 
         <PortfolioCard
           projectName="Travel Geek"
           projectUrl="https://travelgeekalicia-bd545f74fdfc.herokuapp.com/"
           githubUrl="https://github.com/SquirrelsAtARave/Travel-Geek"
-          fileName="tg.png"
+          fileName={tg}
         />
 
         <PortfolioCard
           projectName="Password Generator"
           githubUrl="https://ahermez.github.io/My-Password-Generator/"
-          fileName="pg.png"
+          fileName={pg}
         />
 </div>
 <div style={{ display: "flex", justifyContent: "center" }}>
         <PortfolioCard
           projectName="Code-Quiz"
           githubUrl="https://github.com/ahermez/Code-Quiz-Challenge-4"
-          fileName="cq.png"
+          fileName={cq}
         />
         <PortfolioCard
           projectName="Critical-Weather"
           githubUrl="https://github.com/ahermez/Critical-Weather"
-          fileName="cw.png"
+          fileName={cw}
         />
 
         <PortfolioCard
           projectName="Note-Taker"
           githubUrl="https://github.com/ahermez/Critical-Weather"
-          fileName="nt.png"
+          fileName={nt}
         />
       </div>
     </>

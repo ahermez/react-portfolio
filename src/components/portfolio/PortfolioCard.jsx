@@ -22,7 +22,7 @@ export const PortfolioCard = ({
         <img
           style={{ width: "100%", height: "100%" }}
           alt={`Github for ${projectName}`}
-          src={`Images/${fileName}`}
+          src={fileName}
         />
       </div>
 
