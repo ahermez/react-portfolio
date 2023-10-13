@@ -1,10 +1,11 @@
 import "./about.css"
+import Images from "../../Images/avatar1.jpeg"
 const About = () => {
   return (
     <div>
       <section>
         <div className="avatar-header">
-          <img className= "avatar" src="../Images/avatar1.jpeg"/>
+          <img className= "avatar" src={Images}/>
           <h1>{"Hi, I'm Nadya Alicia Hermez"}</h1>
         </div>   
         
