@@ -13,14 +13,16 @@ Welcome to Module 20, a single-page application portfolio for a web developer. T
   - [Technologies Used](#technologies-used)
   - [React + Vite plugins](#react--vite-plugins)
   - [Images](#images)
+  - [Project Reference](#project-reference)
   - [Contributors:](#contributors)
   - [License](#license)
-- [Project Reference](#project-reference)
 
 ## Project Description
+
 This web developer portfolio is a single-page application designed to help users easily access the developer's information, projects, and contact details. The portfolio follows specific user interaction guidelines:
 
 ### User Interaction Guidelines
+
 - When you load the portfolio, you will be presented with a header, a section for content, and a footer.
 - The header includes the developer's name and navigation links for different sections of the portfolio.
 - Navigation titles include "About Me," "Portfolio," "Contact," and "Resume," with the current section highlighted.
@@ -34,6 +36,7 @@ This web developer portfolio is a single-page application designed to help users
 - The footer includes links to the developer's GitHub, LinkedIn, and a third platform profile.
 
 ## Getting Started
+
 To access the developer's portfolio, follow these steps:
 
 1. Open your preferred web browser.
@@ -41,9 +44,11 @@ To access the developer's portfolio, follow these steps:
 3. The portfolio will load, and you'll find the header, content sections, and footer.
 
 ## Usage
+
 Navigate through the portfolio using the navigation links in the header. Click on the titles corresponding to the sections you want to explore. Explore the developer's bio, projects, contact form, resume, and find links to their profiles on various platforms in the footer.
 
 ## Features
+
 - Single-page application with easy navigation.
 - Highlighted navigation titles for the current section.
 - Interactive contact form with field validation.
@@ -57,19 +62,22 @@ This web developer portfolio is built using the following technologies:
 - HTML
 - CSS
 - JavaScript
+- React + Vite
 
 ## React + Vite plugins
+
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Images
+
 <figure>
   <img src="Images\cq.png" alt="cq" style="width:100%"> <figcaption><i>Coding Quiz</i></figcaption>
   </figure>
 
 <figure>
   <img src="Images\cw.png" alt="cw" style="width:100%"><figcaption><i>Critical Weather</i></figcaption>
-</figure> 
+</figure>
 
 <figure>
   <img src="Images\hat.png" alt="ht" style="width:100%"><figcaption><i>Hybrid Tracker</i></figcaption>
@@ -77,47 +85,25 @@ This web developer portfolio is built using the following technologies:
 
 <figure>
   <img src="Images\nt.png" alt="nt" style="width:100%"><figcaption><i>Note Taker</i></figcaption>
-</figure> 
+</figure>
 
 <figure>
   <img src="Images\pg.png" alt="pg" style="width:100%"><figcaption><i>Password Generator</i></figcaption>
-</figure> 
+</figure>
 
 <figure>
-  <img src="C:\Users\aherm\bootcamp\react-portfolio\Images\tg.png" alt="Travel Geek" style="width:100%"><figcaption><i>Itinerary Page</i></figcaption>
-</figure> 
+  <img src="C:\Users\aherm\bootcamp\react-portfolio\Images\tg.png" alt="tg" style="width:100%"><figcaption><i>Travel Geek</i></figcaption>
+</figure>
 
+## Project Reference
+
+[GitHub] <a href="https://github.com/ahermez/react-portfolio">Ahermez</a>
+[Capture Portfolio] <a href="https://ahermez.github.io/react-portfolio/">Ali's Porfolio</a>
 
 ## Contributors:
+
 Rene Trevino, UCB tutor
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Project Reference
-[GitHub] <a href="https://github.com/ahermez/react-portfolio">Ahermez</a>
-[Capture Portfolio] <a href="https://ahermez.github.io/react-portfolio/">Ali's Porfolio</a>
-
-

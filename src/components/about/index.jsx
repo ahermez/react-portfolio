@@ -4,7 +4,7 @@ const About = () => {
     <div>
       <section>
         <div className="avatar-header">
-          <img className= "avatar" src="Images\avatar1.jpeg"/>
+          <img className= "avatar" src="/Images/avatar1.jpeg"/>
           <h1>{"Hi, I'm Nadya Alicia Hermez"}</h1>
         </div>   
         
