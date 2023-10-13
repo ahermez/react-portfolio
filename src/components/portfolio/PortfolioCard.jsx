@@ -29,7 +29,7 @@ export const PortfolioCard = ({
       <div
         style={{
           display: "flex",
-          flexDirection: "row",
+          flexWrap: "wrap",
           justifyContent: "space-between",
           margin: "6px",
         }}

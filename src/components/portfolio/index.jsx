@@ -23,7 +23,8 @@ const Projects = () => {
           githubUrl="https://ahermez.github.io/My-Password-Generator/"
           fileName="pg.png"
         />
-
+</div>
+<div style={{ display: "flex", justifyContent: "center" }}>
         <PortfolioCard
           projectName="Code-Quiz"
           githubUrl="https://github.com/ahermez/Code-Quiz-Challenge-4"
