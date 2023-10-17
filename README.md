@@ -72,27 +72,27 @@ This web developer portfolio is built using the following technologies:
 ## Images
 
 <figure>
-  <img src="Images\cq.png" alt="cq" style="width:100%"> <figcaption><i>Coding Quiz</i></figcaption>
+  <img src="src/Images/cq.png" alt="cq" style="width:100%"> <figcaption><i>Coding Quiz</i></figcaption>
   </figure>
 
 <figure>
-  <img src="Images\cw.png" alt="cw" style="width:100%"><figcaption><i>Critical Weather</i></figcaption>
+  <img src="src/Images/cw.png" alt="cw" style="width:100%"><figcaption><i>Critical Weather</i></figcaption>
 </figure>
 
 <figure>
-  <img src="Images\hat.png" alt="ht" style="width:100%"><figcaption><i>Hybrid Tracker</i></figcaption>
+  <img src="src/Images/hat.png" alt="ht" style="width:100%"><figcaption><i>Hybrid Tracker</i></figcaption>
 </figure>
 
 <figure>
-  <img src="Images\nt.png" alt="nt" style="width:100%"><figcaption><i>Note Taker</i></figcaption>
+  <img src="src/Images/nt.png" alt="nt" style="width:100%"><figcaption><i>Note Taker</i></figcaption>
 </figure>
 
 <figure>
-  <img src="Images\pg.png" alt="pg" style="width:100%"><figcaption><i>Password Generator</i></figcaption>
+  <img src="src/Images/pg.png" alt="pg" style="width:100%"><figcaption><i>Password Generator</i></figcaption>
 </figure>
 
 <figure>
-  <img src="C:\Users\aherm\bootcamp\react-portfolio\Images\tg.png" alt="tg" style="width:100%"><figcaption><i>Travel Geek</i></figcaption>
+  <img src="src/Images/tg.png" alt="tg" style="width:100%"><figcaption><i>Travel Geek</i></figcaption>
 </figure>
 
 ## Project Reference
