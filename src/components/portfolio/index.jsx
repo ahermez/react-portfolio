@@ -3,7 +3,7 @@ import cq from "../../Images/cq.png"
 import cw from "../../Images/cw.png"
 import hat from "../../Images/hat.png"
 import nt from "../../Images/nt.png"
-import pg from "../../Images/pg.png"
+import wr from "../../Images/wr.png"
 import tg from "../../Images/tg.png"
 
 const Projects = () => {
@@ -25,9 +25,10 @@ const Projects = () => {
         />
 
         <PortfolioCard
-          projectName="Password Generator"
-          githubUrl="https://ahermez.github.io/My-Password-Generator/"
-          fileName={pg}
+          projectName="Where's Robbert"
+          projectUrl="https://where-is-robbert-6b2227092c3e.herokuapp.com"
+          githubUrl="https://github.com/vini3076/prj3-WhereisRobbert"
+          fileName={wr}
         />
 </div>
 <div style={{ display: "flex", justifyContent: "center" }}>
