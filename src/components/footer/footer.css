@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-color: #904494;
+    background-color: #fffffffc;
   }
   
   .footer-section {
@@ -11,7 +11,7 @@
   }
   
   .footer-section a {
-    color: #e4ed2ff8;
+    color: #961161f8;
     text-decoration: none;
     font-size: 20px;
   }

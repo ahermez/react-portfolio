@@ -4,8 +4,8 @@ header{
     font-size: 4.2em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
-    background-color: #0f50c18e;
+    background-color: #2d72e0;
+    background-color: #f3f5f78e;
     text-align: center;
     /* <div style="float: left;">Portfolio</div> */
 
@@ -19,7 +19,7 @@ header{
     padding: 1rem;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #0f50c18e;
+    background-color: #130101;
 }
 
 .navItem {
@@ -28,10 +28,10 @@ header{
 }
 
 .highlight {
-    color: white !important;
+    color: rgb(234, 245, 79) !important;
 }
 
 .navLink {
-    color: yellow;
+    color: rgb(227, 59, 160);
 }
 

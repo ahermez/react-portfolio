@@ -5,8 +5,7 @@ const Root = () => {
 console.log (location.pathname)
   return (
     <span>
-      <header> My Portfolio </header>
-      <ul className="navBar">
+          <ul className="navBar">
         <li className="navItem">
           <Link to="/" className={`navLink ${
               location.pathname === "/" ? "highlight" : ""
