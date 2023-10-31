@@ -1,5 +1,6 @@
 import "./about.css";
 import Images from "../../Images/Bio Photo.jpg";
+
 const About = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const About = () => {
           <p>{"Javascript"}</p>
           <p>{"CSS"}</p>
           <p>{"APIs"}</p>
+          <p>{"MERN"}</p>
           </div>
 
           <div className="skills" id="left">
@@ -35,4 +37,8 @@ const About = () => {
   );
 };
 
-export default About;
+
+
+
+
+export default About
