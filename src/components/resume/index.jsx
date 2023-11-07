@@ -1,11 +1,11 @@
 import "./resume.css";
 
-export const About = () => {
+export const Resume = () => {
     return (
            <a className="downloadButton" href="Images/resume.pdf" download>
-          download{" "}
+          resume
         </a>
         );
   };
   
-  export default Resume
+  export default Resume;

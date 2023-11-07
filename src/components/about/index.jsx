@@ -1,9 +1,12 @@
 import "./about.css";
+import "../resume/resume.css";
 import Images from "../../Images/Bio Photo.jpg";
+import Resume from "../resume";
+
 
 const About = () => {
   return (
-    <div>
+      <div>
       <section className="container">
            <div className="avatar-header">
           <img className="avatar" src={Images} />
@@ -30,15 +33,12 @@ const About = () => {
           <p>{"Express"}</p>
           <p>{"SQL"}</p>
           </div>
-
-      
       </section>
+          <Resume/>      
     </div>
+         
   );
 };
-
-
-
 
 
 export default About

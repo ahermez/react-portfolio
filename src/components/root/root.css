@@ -7,19 +7,16 @@ header{
     background-color: #2d72e0;
     background-color: #f3f5f78e;
     text-align: center;
-    /* <div style="float: left;">Portfolio</div> */
-
 }
-
 
 .navBar {
     display: flex;
     gap: 2rem;
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #130101;
+    background-color: rgb(68, 162, 167);
 }
 
 .navItem {
@@ -32,6 +29,6 @@ header{
 }
 
 .navLink {
-    color: rgb(233, 7, 7);
+    color: rgba(60, 7, 233, 0.574);
 }
 

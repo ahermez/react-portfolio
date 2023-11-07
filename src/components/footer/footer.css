@@ -4,6 +4,7 @@
     align-items: center;
     padding: 2rem;
     background-color: #fffffffc;
+    margin-top: 250px;
   }
   
   .footer-section {
@@ -11,11 +12,11 @@
   }
   
   .footer-section a {
-    color: #961a11f8;
+    color: #ef7810f8;
     text-decoration: none;
     font-size: 20px;
   }
   
   .footer-section a:hover {
-    color: #007BFF;
+    color: #003cff;
   }
