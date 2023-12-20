@@ -2,12 +2,14 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 import "./root.css";
 const Root = () => {
   const location = useLocation();
-console.log (location.pathname)
+  console.log(location.pathname);
   return (
     <span>
-          <ul className="navBar">
+      <ul className="navBar">
         <li className="navItem">
-          <Link to="/" className={`navLink ${
+          <Link
+            to="/"
+            className={`navLink ${
               location.pathname === "/" ? "highlight" : ""
             }`}
           >
@@ -21,26 +23,10 @@ console.log (location.pathname)
               location.pathname === "/portfolio" ? "highlight" : ""
             }`}
           >
-            <span>Portfolio</span>
+             <span>Portfolio</span>
           </Link>
         </li>
-        <li className="navItem">
-          <Link to="/resume" className={`navLink ${
-              location.pathname === "/resume" ? "highlight" : ""
-            }`}
-            >
-            <span>Resume</span>
-          </Link>
-        </li>
-        <li className="navItem">
-          <Link to="/contact" className={`navLink ${
-              location.pathname === "/contact" ? "highlight" : ""
-            }`}
-            >
-            <span>Contact</span>
-          </Link>
-        </li>
-      </ul>
+          </ul>
       <div>
         <Outlet />
       </div>

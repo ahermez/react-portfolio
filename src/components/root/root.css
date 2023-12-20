@@ -16,7 +16,7 @@ header{
     padding: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: rgb(68, 162, 167);
+    background-color: rgb(63, 150, 155);
 }
 
 .navItem {
@@ -29,6 +29,7 @@ header{
 }
 
 .navLink {
-    color: rgba(60, 7, 233, 0.574);
+    color: rgb(18, 7, 233);
+    font-size: large;
 }
 
