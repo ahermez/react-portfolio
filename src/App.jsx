@@ -7,8 +7,6 @@ import {
 import About from "./components/about";
 import Root from "./components/root";
 import Portfolio from "./components/portfolio";
-import Contact from "./components/contact";
-import Resume from "./components/resume";
 import Footer from "./components/footer";
 function App() {
   const router = createBrowserRouter(
@@ -16,8 +14,6 @@ function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
       </Route>
     )
   );

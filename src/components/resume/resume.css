@@ -1,4 +1,12 @@
 .downloadButton {
-    font-size: 2rem;
-    text-align: justify;
-}
+    position: absolute;
+    top: 120px; /* Adjust the top position */
+    left: 530px; /* Adjust the left position */
+    background-color:rgba(54, 131, 135, 0.851);;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 260px;
+  }

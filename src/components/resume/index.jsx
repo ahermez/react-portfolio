@@ -1,21 +1,11 @@
 import "./resume.css";
-
+import pdf from "../../Images/resume.pdf";
 export const Resume = () => {
-  return (
-    <div style={{ textAlign: "center" }}>
-      <ul>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>Handlebars</li>
-        <li>Express</li>
-        <li>Node.js</li>
-      </ul>
-
-      <a className="downloadButton" href="Images/resume.pdf" download>
-        download{" "}
-      </a>
-    </div>
-  );
-};
-
-export default Resume;
+    return (
+           <a className="downloadButton" href= {pdf}download>
+          resume
+        </a>
+        );
+  };
+  
+  export default Resume;
