@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
+import pdf from "../../Images/resume.pdf";
 import "./root.css";
 const Root = () => {
   const location = useLocation();
@@ -23,13 +24,19 @@ const Root = () => {
               location.pathname === "/portfolio" ? "highlight" : ""
             }`}
           >
-             <span>Portfolio</span>
+            <span>Portfolio</span>
           </Link>
         </li>
-          </ul>
-      <div>
-        <Outlet />
-      </div>
+
+        <li className="navItem">
+          <a className="downloadButton" href={pdf} download>
+            Resume
+          </a>
+        </li>
+        <div>
+          <Outlet />
+        </div>
+      </ul>
     </span>
   );
 };

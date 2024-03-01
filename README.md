@@ -100,6 +100,7 @@ This web developer portfolio is built using the following technologies:
 [GitHub] <a href="https://github.com/ahermez/react-portfolio">Ahermez</a>
 [Netify] <a href="https://20-portfolio.netlify.app/">Ali's Porfolio</a>
 
+
 ## Contributors:
 
 Rene Trevino, UCB tutor

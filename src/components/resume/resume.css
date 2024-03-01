@@ -1,5 +1,7 @@
 .downloadButton {
-    position: absolute;
+    position: relative;
+    background-position: center;
+    background-size: cover;
     top: 120px; /* Adjust the top position */
     left: 530px; /* Adjust the left position */
     background-color:rgba(54, 131, 135, 0.851);;
@@ -9,4 +11,5 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 260px;
+    margin-bottom: 100px;
   }
