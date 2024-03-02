@@ -12,10 +12,10 @@ const About = () => {
             <span id="jobTitle"> {"Jr. tech"}</span>
           </div>
         </div>
+        <Skills />
       </section>
 
       <Contact />
-      <Skills />
     </div>
   );
 };
@@ -27,8 +27,6 @@ const Skills = () => {
         <p>{"Web Developer"}</p>
         <p>{"React"}</p>
         <p>{"Javascript"}</p>
-        </div>
-<div className="skills-second">
         <p>{"CSS"}</p>
         <p>{"APIs"}</p>
         <p>{"MERN"}</p>
@@ -38,9 +36,6 @@ const Skills = () => {
         <p>{"Node"}</p>
         <p>{"Mongoose"}</p>
         <p>{"MongoDB"}</p>
-        </div>
-
-        <div className="skills-third">
         <p>{"GraphQL"}</p>
         <p>{"Express"}</p>
         <p>{"SQL"}</p>

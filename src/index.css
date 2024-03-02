@@ -13,15 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+/* resume label (possibly all labels) */
 a {
   font-weight: 500;
-  color: #a00f0d;
+  color: #ede4e4;
   text-decoration: inherit;
-  font-size: xx-large; 
+  font-size: x-large; 
 }
 a:hover {
-  color: #535bf2;
+  color: #f253d0;
 }
 
 body {
@@ -44,7 +44,7 @@ button {
   font-family: inherit;
   background-color: #7b0b0b;
   cursor: pointer;
-  transition: border-color 0.25s;
+  /* transition: border-color 0.25s; */
 }
 button:hover {
   border-color: #978e10;
@@ -56,7 +56,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #0e0c87;
+    color: #0f1b9f;
     background-color: #fffffffc;
   }
   a:hover {

@@ -27,16 +27,14 @@ const Root = () => {
             <span>Portfolio</span>
           </Link>
         </li>
-
         <li className="navItem">
           <a className="downloadButton" href={pdf} download>
             Resume
           </a>
         </li>
-        <div>
-          <Outlet />
-        </div>
       </ul>
+
+      <Outlet />
     </span>
   );
 };
