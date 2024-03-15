@@ -1,11 +1,12 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import pdf from "../../Images/resume.pdf";
 import "./root.css";
+
 const Root = () => {
   const location = useLocation();
   console.log(location.pathname);
   return (
-    <span>
+    <div style={{ height: "90vh" }}>
       <ul className="navBar">
         <li className="navItem">
           <Link
@@ -35,7 +36,7 @@ const Root = () => {
       </ul>
 
       <Outlet />
-    </span>
+    </div>
   );
 };
 

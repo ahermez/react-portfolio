@@ -4,14 +4,20 @@ const Footer = () => {
     <div className="footer">
       <div>
         <h2> Nadya Alicia Hermez</h2>
+        
       </div>
       <ul>
         <li>
-          <a href="mailto:ahermez@ymail.com" style={{ color: "navy", fontSize: '26px',  fontWeight: 'bold'}}>Email: ahermez@ymail.com</a>
+          <a
+            href="mailto:ahermez@ymail.com"
+            style={{ color: "whitesmoke", fontSize: "26px", fontWeight: "bold" }}
+          >
+            Email: ahermez@ymail.com
+          </a>
         </li>
       </ul>
       <div className="footer-section">
-        <a href="https://www.github.com">
+        <a href="https://github.com/ahermez">
           <i className="fa fa-github"></i>
         </a>
       </div>

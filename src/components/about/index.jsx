@@ -1,17 +1,27 @@
 import "./about.css";
-import Images from "../../Images/Bio Photo.jpg";
+import Images from "../../Images/photo11.png";
 
 const About = () => {
   return (
     <div>
       <section className="container">
-        <div className="avatar-header">
-          <img className="avatar" src={Images} />
-          <div className="title">
-            <span id="name"> {"Ali Hermez"}</span>
-            <span id="jobTitle"> {"Jr. tech"}</span>
+        <div className="sub-container">
+          <div className="avatar-header">
+            <img className="avatar" src={Images} />
+            <div className="title">
+              <span id="name"> {"Ali Hermez"}</span>
+              <span id="jobTitle"> {"Front-end"}</span>
+            </div>
           </div>
+          <h3>
+            About me...Living in the San Francisco Bay Area, I love sunny days,
+            hicking, palm trees and ocean breeze. My fervor lies in continuous
+            learning, delving deep into the intricacites of coding, and striving
+            for excellence in mastering its building blocks
+          </h3>
+      
         </div>
+
         <Skills />
       </section>
 

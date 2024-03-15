@@ -7,6 +7,7 @@ header{
     background-color: #111503;
     background-color: #f3f5f78e;
     text-align: center;
+    color: rgba(13, 45, 37, 0.42);
 }
 
 .navBar {
@@ -16,7 +17,7 @@ header{
     padding: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: rgb(10, 11, 10);
+    background-color: rgba(13, 45, 37, 0.42);
     padding: 30px;
 }
 
@@ -32,7 +33,7 @@ header{
 }
 
 .navLink {
-    color: #ede4e4;
-    font-size: 16x;
+    color: whitesmoke;
+    font-size: 23px;
 }
 

@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgb(195, 225, 89);
+  color: rgb(33, 39, 10);
   background-color: #aa1616;
 
   font-synthesis: none;
@@ -13,12 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+#root {
+  height: 100%;
+}
 /* resume label (possibly all labels) */
 a {
   font-weight: 500;
-  color: #ede4e4;
+  color: whitesmoke;
   text-decoration: inherit;
-  font-size: x-large; 
+  font-size: x-large;
 }
 a:hover {
   color: #f253d0;
@@ -47,7 +51,7 @@ button {
   /* transition: border-color 0.25s; */
 }
 button:hover {
-  border-color: #978e10;
+  border-color: #ecdf1e;
 }
 button:focus,
 button:focus-visible {
@@ -56,11 +60,11 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #0f1b9f;
-    background-color: #fffffffc;
+    color: whitesmoke;
+    background-color: rgba(13, 45, 37, 0.42);
   }
   a:hover {
-    color: #d7dd21;
+    color: #e8e53d;
   }
   button {
     background-color: #84848f;
