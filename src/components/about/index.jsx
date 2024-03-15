@@ -15,9 +15,9 @@ const About = () => {
           </div>
           <h3>
             About me...Living in the San Francisco Bay Area, I love sunny days,
-            hicking, palm trees and ocean breeze. My fervor lies in continuous
+            hiking, palm trees and ocean breeze. My fervor lies in continuous
             learning, delving deep into the intricacites of coding, and striving
-            for excellence in mastering its building blocks
+            for excellence in mastering its building blocks.
           </h3>
       
         </div>

@@ -22,7 +22,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-section">
-        <a href="https://www.linkedin.com/in/hermez-a8a73633/">
+        <a href="https:/www.linkedin.com/in/ali-hermez-a8a73633">
           <i className="fa fa-linkedin"></i>
         </a>
       </div>
