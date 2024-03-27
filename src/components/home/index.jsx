@@ -1,12 +1,12 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import pdf from "../../Images/resume.pdf";
-import "./root.css";
+import "./home.css";
 
-const Root = () => {
+const Home = () => {
   const location = useLocation();
   console.log(location.pathname);
   return (
-    <div style={{ height: "90vh" }}>
+    <div>
       <ul className="navBar">
         <li className="navItem">
           <Link
@@ -40,4 +40,4 @@ const Root = () => {
   );
 };
 
-export default Root;
+export default Home;

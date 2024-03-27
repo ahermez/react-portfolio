@@ -3,7 +3,7 @@ import Images from "../../Images/photo11.png";
 
 const About = () => {
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <section className="container">
         <div className="sub-container">
           <div className="avatar-header">
@@ -19,7 +19,6 @@ const About = () => {
             learning, delving deep into the intricacites of coding, and striving
             for excellence in mastering its building blocks.
           </h3>
-      
         </div>
 
         <Skills />

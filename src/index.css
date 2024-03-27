@@ -20,9 +20,10 @@
 /* resume label (possibly all labels) */
 a {
   font-weight: 500;
+ 
   color: whitesmoke;
   text-decoration: inherit;
-  font-size: x-large;
+  font-size: 1rem;
 }
 a:hover {
   color: #f253d0;
@@ -64,7 +65,7 @@ button:focus-visible {
     background-color: rgba(13, 45, 37, 0.42);
   }
   a:hover {
-    color: #e8e53d;
+    /* color: #e8e53d; */
   }
   button {
     background-color: #84848f;

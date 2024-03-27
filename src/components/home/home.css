@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  padding: 0rem;
+  font-size: 4.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #111503;
+  background-color: #f3f5f78e;
+  text-align: center;
+  color: rgba(13, 45, 37, 0.42);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 10rem; */
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgba(13, 45, 37, 0.42);
+  padding: 20px;
+}
+
+.navItem {
+  list-style: none;
+}
+
+.highlight {
+  /* color: rgb(234, 245, 79) */
+  color: #ece91a !important;
+}
+
+.navLink {
+  color: whitesmoke;
+  font-size: 1rem;
+}

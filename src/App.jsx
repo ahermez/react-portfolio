@@ -5,13 +5,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import About from "./components/about";
-import Root from "./components/root";
+import Home from "./components/home";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Root />}>
+      <Route path="/" element={<Home />}>
         <Route index element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Route>
@@ -20,8 +20,7 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router}/>
-      
+      <RouterProvider router={router} />
       <Footer />
     </>
   );

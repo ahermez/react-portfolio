@@ -1,15 +1,16 @@
 import { PortfolioCard } from "./PortfolioCard";
-import cq from "../../Images/cq.png"
-import cw from "../../Images/cw.png"
-import hat from "../../Images/hat.png"
-import nt from "../../Images/nt.png"
-import wr from "../../Images/wr.png"
-import tg from "../../Images/tg.png"
+import cq from "../../Images/cq.png";
+import cw from "../../Images/cw.png";
+import hat from "../../Images/hat.png";
+import nt from "../../Images/nt.png";
+import wr from "../../Images/wr.png";
+import tg from "../../Images/tg.png";
+import "./portfolio.css";
 
 const Projects = () => {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div className="main-portfolio">
         <PortfolioCard
           projectName="Hybrid Attendance Tracker"
           projectUrl="https://ahermez.github.io/hybrid-tracker-project-1/"
@@ -30,8 +31,6 @@ const Projects = () => {
           githubUrl="https://github.com/vini3076/prj3-WhereisRobbert"
           fileName={wr}
         />
-</div>
-<div style={{ display: "flex", justifyContent: "center" }}>
         <PortfolioCard
           projectName="Code-Quiz"
           githubUrl="https://github.com/ahermez/Code-Quiz-Challenge-4"

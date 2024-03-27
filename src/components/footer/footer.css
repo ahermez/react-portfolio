@@ -2,23 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   background-color: rgba(13, 45, 37, 0.42);
-  margin-top: 0px;
-  height: 5vh;
-}
-
-.footer-section {
-  margin: 30px;
- 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-section a {
-  color: #fbdf29;
-  text-decoration: none;
-  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #ece91a;
+  margin: 30px;
 }
 
 .footer-section a:hover {
-  color: #ece91a;
+  color: #f253d0;
 }

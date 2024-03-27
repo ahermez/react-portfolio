@@ -1,4 +1,5 @@
 // destructering
+import "./portfolio.css";
 export const PortfolioCard = ({
   projectName,
   githubUrl,
@@ -6,34 +7,16 @@ export const PortfolioCard = ({
   fileName,
 }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        backgroundColor: "#e4e4e4",
-        borderRadius: "4px",
-        maxHeight: "600px",
-        maxWidth: "400px",
-        margin: "6px",
-      }}
-    >
-      <h3 style={{ textAlign: "center" }}>{projectName}</h3>
-      <div style={{ width: "400px", height: "400px", borderRadius: "4px" }}>
+    <div className="portfolio-container">
+      <h3 className="portfolio-title">{projectName}</h3>
+      <div className="portfolio-details">
         <img
-          style={{ width: "100%", height: "100%" }}
+          className="portfolio-details-img"
           alt={`Github for ${projectName}`}
           src={fileName}
         />
       </div>
-
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-between",
-          margin: "6px",
-        }}
-      >
+      <div className="portfolio-footer">
         <a href={githubUrl}>Github</a>
         <a href={projectUrl}>Project</a>
       </div>

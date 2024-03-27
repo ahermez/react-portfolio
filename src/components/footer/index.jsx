@@ -3,15 +3,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div>
-        <h2> Nadya Alicia Hermez</h2>
-        
+        <h3> Nadya Alicia Hermez</h3>
       </div>
       <ul>
         <li>
-          <a
-            href="mailto:ahermez@ymail.com"
-            style={{ color: "whitesmoke", fontSize: "26px", fontWeight: "bold" }}
-          >
+          <a href="mailto:ahermez@ymail.com" style={{ color: "whitesmoke" }}>
             Email: ahermez@ymail.com
           </a>
         </li>
