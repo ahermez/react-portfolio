@@ -15,7 +15,9 @@
 }
 
 #root {
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* resume label (possibly all labels) */
 a {

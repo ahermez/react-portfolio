@@ -2,16 +2,13 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div>
-        <h3> Nadya Alicia Hermez</h3>
+      <div className="footer-text">
+        <span> Nadya Alicia Hermez</span>
+        <a href="mailto:ahermez@ymail.com" style={{ color: "whitesmoke" }}>
+          ahermez@ymail.com
+        </a>
       </div>
-      <ul>
-        <li>
-          <a href="mailto:ahermez@ymail.com" style={{ color: "whitesmoke" }}>
-            Email: ahermez@ymail.com
-          </a>
-        </li>
-      </ul>
+
       <div className="footer-section">
         <a href="https://github.com/ahermez">
           <i className="fa fa-github"></i>

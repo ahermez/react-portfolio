@@ -12,13 +12,28 @@ header {
 
 .navBar {
   display: flex;
-  justify-content: space-evenly;
-  /* gap: 10rem; */
+  justify-content: flex-start;
+  gap: 5rem;
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: rgba(13, 45, 37, 0.42);
+  background-color: rgba(94,115,111,1);
   padding: 20px;
+  position: fixed;
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* gap: 10rem; */
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(13, 45, 37, 0.42);
+    padding: 20px;
+  }
 }
 
 .navItem {

@@ -3,7 +3,7 @@ import Images from "../../Images/photo11.png";
 
 const About = () => {
   return (
-    <div style={{ height: "100vh" }}>
+    <div style={{ height: "100%" }}>
       <section className="container">
         <div className="sub-container">
           <div className="avatar-header">

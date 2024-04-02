@@ -35,7 +35,9 @@ const Home = () => {
         </li>
       </ul>
 
-      <Outlet />
+      <div style={{ marginTop: "80px" }}>
+        <Outlet />
+      </div>
     </div>
   );
 };

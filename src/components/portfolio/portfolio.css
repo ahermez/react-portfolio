@@ -17,7 +17,6 @@
   /* margin: 1%; */
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 @media only screen and (min-width: 600px) {
@@ -35,12 +34,11 @@
 }
 
 .portfolio-details {
-  /* max-width: 400px;
-  max-height: 400px; */
+  /* max-width: 400px; */
+  max-height: 250px;
   border-radius: 4px;
   height: 100%;
   width: 100%;
- 
 }
 
 .portfolio-details-img {
@@ -53,5 +51,4 @@
   flex-wrap: "wrap";
   justify-content: "space-between";
   margin: "6px";
-
 }
